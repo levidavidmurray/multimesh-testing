@@ -1,10 +1,14 @@
 # Godot MultiMesh Toy
 
-![image](https://github.com/user-attachments/assets/7677c366-af18-4887-9283-41d6067a82dc)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bf04cdf3-8e1a-42e2-ac54-8e03d7ec3a2e" width="100%" >
+</p>
 
 A little toy a made while messing around with Godot's `MultiMeshInstance3D`.
 
 Demo Here: https://teamldm.itch.io/godot-multimesh-toy
+
+---
 
 **ALT+RMB+DRAG Horizontal** to control selection radius.
 
