@@ -4,7 +4,7 @@
   <img src="https://github.com/user-attachments/assets/bf04cdf3-8e1a-42e2-ac54-8e03d7ec3a2e" width="100%" >
 </p>
 
-A little toy a made while messing around with Godot's `MultiMeshInstance3D`.
+A little toy I made while messing around with Godot's `MultiMeshInstance3D`.
 
 Demo Here: https://teamldm.itch.io/godot-multimesh-toy
 
