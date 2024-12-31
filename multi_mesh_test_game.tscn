@@ -73,6 +73,11 @@ selected_color = Color(1, 0.717647, 0.0117647, 1)
 transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
 shadow_enabled = true
 
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.681804, -0.485091, -0.547566, 0, 0.748518, -0.663116, 0.731534, 0.452115, 0.510343, 0, 0, 0)
+visible = false
+light_energy = 0.5
+
 [node name="MultiMeshInstance3D" type="MultiMeshInstance3D" parent="."]
 multimesh = SubResource("MultiMesh_3h4mu")
 
@@ -166,11 +171,14 @@ text = "Points Influenced: 15000"
 [node name="SettingsPanel" type="PanelContainer" parent="CanvasLayer/GameUI"]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(240, 0)
-layout_mode = 2
-offset_left = 16.0
-offset_top = 840.0
-offset_right = 392.0
-offset_bottom = 1129.0
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -303.0
+offset_top = 16.0
+offset_right = 73.0
+offset_bottom = 305.0
 grow_horizontal = 0
 scale = Vector2(0.75, 0.75)
 

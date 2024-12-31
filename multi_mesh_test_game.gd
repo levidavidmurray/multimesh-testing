@@ -114,6 +114,7 @@ func _ready():
 
 func _unhandled_input(event: InputEvent):
 	if event is InputEventKey:
+		# Debug for looping video
 		event = event as InputEventKey
 		if event.keycode == KEY_P:
 			orbit_camera.reset_rotation()
